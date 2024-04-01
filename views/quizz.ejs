@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs',{...name}) %>
+
+
+   <body>
+      <nav>
+         Zentrek
+      </nav>
+      <form action="/results" method="POST">
+         <div class="container">
+            <h2>Climat :</h2>
+            <br>
+            <div id="quizz">
+               <div>
+                  <input type="checkbox" id="cold" name="type of climate" value="cold">
+                  <label for="cold">🥶 Froid</label>
+               </div>
+               <div>
+                  <input type="checkbox" id="moderate" name="type of climate" value="moderate">
+                  <label for="moderate">🌞 Modéré</label>
+               </div>
+               <div>
+                  <input type="checkbox" id="hot" name="type of climate" value="hot">
+                  <label for="hot">🌡️ Chaud</label>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <h2>Type de trek :</h2>
+            <br>
+            <div id="quizz">
+               <div>
+                  <input type="checkbox" id="bivouac" name="type of trek" value="bivouac">
+                  <label for="bivouac">⛺ Bivouac</label>
+               </div>
+               <div>
+                  <input type="checkbox" id="notBivouac" name="type of trek" value="notBivouac">
+                  <label for="notBivouac">🏠 Refuge/Herbegement</label>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <h2>Vous etes :</h2>
+            <br>
+            <div id="quizz">
+               <div>
+                  <input type="checkbox" id="men" name="type of person" value="men">
+                  <label for="men">👨 Homme</label>
+               </div>
+               <div>
+                  <input type="checkbox" id="women" name="type of person" value="women">
+                  <label for="women">👩 Femme</label>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <h2>Terrain</h2>
+            <br>
+            <div id="quizz">
+               <div>
+                  <input type="checkbox" id="snow" name="type of terrain" value="snow">
+                  <label for="snow">❄️ Neige</label>
+               </div>
+               <div>
+                  <input type="checkbox" id="wet" name="type of terrain" value="wet">
+                  <label for="wet">💦 Humide</label>
+               </div>
+            </div>
+         </div>
+         <button type="submit">Suivant</button>
+      </form>
+
+   </body>
+
+</html>

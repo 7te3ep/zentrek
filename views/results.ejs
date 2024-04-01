@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs',{...name}) %>
+
+
+   <body>
+      <nav>
+         Zentrek
+      </nav>
+      <h1>Ta checklist : </h1>
+      <section>
+         <%Object.entries(checkList).forEach(category=>{ %>
+            <div class="container checkList-container">
+               <h2>
+                  <%=traduction[category[0]]%>
+               </h2>
+               <div class="checkList">
+                  <%category[1].forEach((item)=>{%>
+                     <div>
+                        <input type="checkbox">
+                        <%=item%>
+                     </div>
+                     <%})%>
+
+               </div>
+            </div>
+            <%})%>
+      </section>
+
+   </body>
+
+</html>

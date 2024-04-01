@@ -1,0 +1,136 @@
+/* latin */
+@font-face {
+   font-family: "Quicksand";
+   font-style: normal;
+   font-weight: 300 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/quicksand/v31/6xKtdSZaM9iE8KbpRA_hK1QN.woff2)
+      format("woff2");
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
+      U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+   --black: #333;
+   --white: #f8f8ff;
+   --grey: #dcd8db;
+   --primary: #29c441;
+   --accent: #f4d35e;
+}
+
+* {
+   font-size: 16px;
+   color: var(--black);
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: "Quicksand";
+}
+
+body {
+   background-color: var(--white);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section {
+   padding: 1rem;
+   width: 100%;
+}
+
+nav {
+   display: flex;
+   position: sticky;
+   top: 0px;
+   justify-content: left;
+   align-items: center;
+   width: 100%;
+   padding: 0.5rem;
+   border-bottom: 0.2rem var(--grey) solid;
+   font-weight: bolder;
+   text-transform: uppercase;
+   background-color: var(--white);
+   z-index: 100;
+}
+
+span {
+   font-weight: bolder;
+   color: var(--accent);
+}
+
+p {
+   font-size: 1rem;
+}
+
+h3 {
+   font-weight: normal;
+   font-size: 1.2rem;
+}
+
+h2 {
+   font-weight: normal;
+   font-size: 1.5rem;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2rem;
+}
+
+.container {
+   margin: 1rem;
+   padding: 1rem;
+   border: 0.2rem var(--grey) solid;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+}
+
+button {
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   margin: 0.5rem 2rem;
+   border-radius: 1rem;
+   padding: 1rem 1.5rem;
+   inset: none;
+   border: 0.2rem var(--grey) solid;
+   box-shadow: none;
+   color: var(--black);
+   font-weight: bolder;
+   background-color: var(--white);
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   transition: all 0.1s ease;
+   -webkit-transition: all 0.1s ease;
+   -moz-transition: all 0.1s ease;
+   -ms-transition: all 0.1s ease;
+   -o-transition: all 0.1s ease;
+}
+
+.primary-btn {
+   border-radius: 3rem;
+   background-color: var(--primary);
+   border: none;
+   color: var(--white);
+   -webkit-border-radius: 3rem;
+   -moz-border-radius: 3rem;
+   -ms-border-radius: 3rem;
+   -o-border-radius: 3rem;
+}
+
+button:hover,
+button:active {
+   background-color: var(--accent);
+   color: var(--white);
+   border: transparent 0.2rem solid;
+}
+.primary-btn:hover,
+.primary-btn:active {
+   color: var(--black);
+}

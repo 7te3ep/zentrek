@@ -1,0 +1,471 @@
+{
+   "sac a dos": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "sac plastique zip": {
+      "category": "cook",
+      "tags": [
+         "main"
+      ]
+   },
+   "chaussures randonné": {
+      "category": "shoes",
+      "tags": [
+         "main"
+      ]
+   },
+   "impermeable": {
+      "category": "clothes",
+      "tags": [
+         "main"
+      ]
+   },
+   "tee-shirts": {
+      "category": "clothes",
+      "tags": [
+         "main"
+      ]
+   },
+   "sous vetements": {
+      "category": "clothes",
+      "tags": [
+         "main"
+      ]
+   },
+   "tongs": {
+      "category": "shoes",
+      "tags": [
+         "main"
+      ]
+   },
+   "bouchon anti bruits": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "masque anti lumière": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "trousse de toilette": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "serviettes microfibre": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "gant de toilette": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "savon": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "shampooing": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "brosse a dents": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "dentifrice": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "cotons tiges": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "peigne/brosse": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "lingettes": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "coton": {
+      "category": "hygiene",
+      "tags": [
+         "main"
+      ]
+   },
+   "compresses": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "antiseptique": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "pince a epiler": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "antalgique": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "antibiotique": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "passeport": {
+      "category": "legal",
+      "tags": [
+         "main"
+      ]
+   },
+   "carte identité": {
+      "category": "legal",
+      "tags": [
+         "main"
+      ]
+   },
+   "argent liquide": {
+      "category": "legal",
+      "tags": [
+         "main"
+      ]
+   },
+   "portefeuille": {
+      "category": "legal",
+      "tags": [
+         "main"
+      ]
+   },
+   "carte": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "briquet": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "gourde": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "stylo": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "carnet/papier": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "couteau mutlifonction": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "sac poubelle": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "smartphone": {
+      "category": "tech",
+      "tags": [
+         "main"
+      ]
+   },
+   "chargeur smartphone": {
+      "category": "tech",
+      "tags": [
+         "main"
+      ]
+   },
+   "batterie de secour": {
+      "category": "tech",
+      "tags": [
+         "main"
+      ]
+   },
+   "couverture de survie": {
+      "category": "aid",
+      "tags": [
+         "main"
+      ]
+   },
+   "snacks": {
+      "category": "main",
+      "tags": [
+         "main"
+      ]
+   },
+   "lessive": {
+      "category": "main",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "nourriture": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "tente": {
+      "category": "main",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "panneau solaire": {
+      "category": "tech",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "pastille purification": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "sac de couchage": {
+      "category": "main",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "lampe frontale": {
+      "category": "tech",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "rechaud": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "gaz": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "papier toilette": {
+      "category": "hygiene",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "quarts": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "matelas isolant": {
+      "category": "main",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "rasoir/mousse a raser": {
+      "category": "hygiene",
+      "tags": [
+         "men"
+      ]
+   },
+   "tampon periodique": {
+      "category": "hygiene",
+      "tags": [
+         "women"
+      ]
+   },
+   "pantalon": {
+      "category": "clothes",
+      "tags": [
+         "cold",
+         "moderate"
+      ]
+   },
+   "short": {
+      "category": "clothes",
+      "tags": [
+         "hot",
+         "wet",
+         "moderate"
+      ]
+   },
+   "tour de cou": {
+      "category": "clothes",
+      "tags": [
+         "cold"
+      ]
+   },
+   "thermos": {
+      "category": "cook",
+      "tags": [
+         "cold"
+      ]
+   },
+   "doudoune": {
+      "category": "clothes",
+      "tags": [
+         "cold"
+      ]
+   },
+   "polaires": {
+      "category": "clothes",
+      "tags": [
+         "cold"
+      ]
+   },
+   "gants chauds": {
+      "category": "clothes",
+      "tags": [
+         "cold"
+      ]
+   },
+   "bonnet": {
+      "category": "clothes",
+      "tags": [
+         "cold",
+         "moderate"
+      ]
+   },
+   "anti insecte": {
+      "category": "main",
+      "tags": [
+         "hot",
+         "wet"
+      ]
+   },
+   "crème solaire": {
+      "category": "hygiene",
+      "tags": [
+         "hot"
+      ]
+   },
+   "couvre chef": {
+      "category": "clothes",
+      "tags": [
+         "moderate",
+         "hot"
+      ]
+   },
+   "lunette de soleil": {
+      "category": "clothes",
+      "tags": [
+         "hot"
+      ]
+   },
+   "moustiquaire": {
+      "category": "main",
+      "tags": [
+         "bivouac",
+         "hot"
+      ]
+   },
+   "sur sac impermeable": {
+      "category": "main",
+      "tags": [
+         "wet"
+      ]
+   },
+   "guet": {
+      "category": "clothes",
+      "tags": [
+         "wet"
+      ]
+   },
+   "botte caoutchou": {
+      "category": "shoes",
+      "tags": [
+         "wet"
+      ]
+   },
+   "mouffle": {
+      "category": "clothes",
+      "tags": [
+         "snow"
+      ]
+   },
+   "raquettes": {
+      "category": "clothes",
+      "tags": [
+         "snow"
+      ]
+   },
+   "tasses": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "casserole": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "assiete": {
+      "category": "cook",
+      "tags": [
+         "bivouac"
+      ]
+   },
+   "couverts": {
+      "category": "cook",
+      "tags": [
+         "main"
+      ]
+   }
+}
