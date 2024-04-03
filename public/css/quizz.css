@@ -20,3 +20,7 @@ input[type="checkbox"] {
       flex-direction: column;
    }
 }
+
+#quizzContainer > div {
+   max-width: 90vw;
+}

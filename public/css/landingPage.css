@@ -1,14 +1,25 @@
+#firstSection {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: url("./BG1.jpg");
+   background-position: left;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 55vh;
+}
+
 #slogan {
-   padding-top: 3rem;
    padding-bottom: 1rem;
    width: 100%;
-   max-width: 500px;
+   max-width: 800px;
 }
 
 #description {
    width: 100;
    width: 100%;
-   max-width: 700px;
+   max-width: 1000px;
    text-align: center;
    padding: 0rem 0.5rem;
    padding-bottom: 1rem;
@@ -17,6 +28,44 @@
 #CTA {
    animation: cta 1s infinite ease;
    -webkit-animation: cta 1s infinite ease;
+}
+
+#secondSection {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   background-color: var(--accent);
+   justify-content: center;
+}
+
+#secondSection > h1 {
+   width: 100%;
+   padding-bottom: 1rem;
+}
+
+.reason {
+   min-width: 500px;
+   width: fit-content;
+   padding: 1rem 2rem;
+   text-align: left;
+}
+
+.reason > h2 {
+   width: fit-content;
+}
+
+.reason > ul {
+   width: fit-content;
+
+   padding-top: 1rem;
+   padding-left: 2rem;
+}
+
+.reason > ul > li {
+   width: fit-content;
+
+   font-size: 1.2rem;
 }
 
 @keyframes cta {
