@@ -8,7 +8,7 @@ app.use(express.static(__dirname + "/public"));
 app.set("views", path.join(__dirname, "./views"));
 
 app.use(express.urlencoded({ extended: true }));
-const port = 80;
+const port = 2001;
 
 app.listen(port, () => {
    console.log(`App listening on port http://localhost:${port}/`);
