@@ -29,8 +29,6 @@
 #CTA {
    background-color: var(--accent);
    color: var(--black);
-   animation: cta 1s infinite ease;
-   -webkit-animation: cta 1s infinite ease;
 }
 
 #secondSection {
@@ -73,28 +71,10 @@
 
 #thirdSection {
    padding: 1rem;
-   background-color: var(--accent);
-   font-size: 1.1rem;
+   background-color: var(--white);
+   font-size: 1.2rem;
 }
 
 #thirdSection > h1 {
    padding-bottom: 2rem;
-}
-
-@keyframes cta {
-   0% {
-      transform: scale(1);
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -o-transform: scale(1);
-   }
-
-   50% {
-      transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-   }
 }
