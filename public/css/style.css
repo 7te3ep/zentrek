@@ -56,6 +56,11 @@ nav {
    z-index: 100;
 }
 
+nav > img {
+   height: 2.5rem;
+   padding-right: 1rem;
+}
+
 span {
    font-weight: bolder;
    color: var(--accent);
@@ -134,4 +139,16 @@ button:active {
 .primary-btn:hover,
 .primary-btn:active {
    color: var(--black);
+}
+
+@media (max-width: 1250px) {
+   * {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 700px) {
+   * {
+      font-size: 12px;
+   }
 }
