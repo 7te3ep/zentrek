@@ -3,7 +3,7 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background: url("./BG1.jpg");
+   background: url("./BG1.webp");
    background-position: left;
    background-size: cover;
    background-repeat: no-repeat;
@@ -26,6 +26,8 @@
 }
 
 #CTA {
+   background-color: var(--accent);
+   color: var(--black);
    animation: cta 1s infinite ease;
    -webkit-animation: cta 1s infinite ease;
 }
@@ -35,7 +37,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    width: 100%;
-   background-color: var(--accent);
+   background-color: var(--primary);
    justify-content: center;
 }
 
