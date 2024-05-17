@@ -43,16 +43,15 @@ section {
 
 nav {
    display: flex;
-   position: sticky;
+   position: fixed;
    top: 0px;
    justify-content: left;
    align-items: center;
    width: 100%;
    padding: 0.5rem;
-   border-bottom: 0.2rem var(--grey) solid;
+   background-color: transparent;
    font-weight: bolder;
    text-transform: uppercase;
-   background-color: var(--white);
    z-index: 100;
 }
 

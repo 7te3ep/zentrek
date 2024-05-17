@@ -4,73 +4,74 @@
 <%- include('./partials/head.ejs',{...name}) %>
 
    <body>
-      <nav>
-         <img src="favicon.png" alt="">
-         Zentrek
-      </nav>
-      <section id="firstSection">
-         <h1 id="slogan">N'oubliez rien lors de votre prochaine aventure</h1>
-         <h2 id="description">Obtenez une check list complète du materiel a emmener pour votre randonné, en fonction du
-            climat, du terrain, de la durée, mais aussi de vos gouts.
-         </h2>
+      <%- include('./partials/nav.ejs',{...name}) %>
 
-         <a href="quizz">
-            <button id="CTA" class="primary-btn">Obtenir votre checklist</button>
-         </a>
-      </section>
-      <section id="secondSection">
-         <h1>Facile a utiliser</h1>
-         <div class="reason">
-            <h2>Remplissez le quizz</h2>
-            <ul>
-               <li>Rapide et intuitif</li>
-               <li>Grande variété de possibilités</li>
-               <li>Aucune conservation des reponses</li>
-            </ul>
-         </div>
-         <div class="reason">
-            <h2>Generez votre check list</h2>
-            <ul>
-               <li>Generation instantanné</li>
-               <li>Une checklist fonctionnelle</li>
-               <li>Apparence epuré</li>
-            </ul>
-         </div>
-         <div class="reason">
-            <h2>Exportez la pour impression ou partager</h2>
-            <ul>
-               <li>Possibilité d'exporter en PDF</li>
-               <li>Partage de la checklist avec le lien</li>
-            </ul>
-         </div>
+         <section id="firstSection">
+            <h1 id="slogan">Obtenez une checklist adapté a votre prochaine aventure !</h1>
+            <h2 id="description">Generez une check list complète du materiel a emmener pour votre randonné, en fonction
+               du
+               climat, du terrain, de la durée, mais aussi de vos gouts.
+            </h2>
 
-      </section>
-      <section id="thirdSection">
-         <h1>L'importance d'avoir une bonne checklist :</h1>
-         Pour s'assurer que chaque randonnée se déroule sans accroc et que l'expérience en plein air demeure agréable,
-         <strong>l'utilisation d'une check-list</strong> est essentielle. Cette <strong>liste d'empaquetage</strong>
-         minutieusement
-         conçue garantit que
-         rien d'important n'est oublié avant de partir pour le <strong>trek</strong>. En l'absence d'une telle
-         préparation, les
-         randonneurs risquent de rencontrer des problèmes frustrants, allant de l'équipement manquant à des soucis
-         logistiques, pouvant compromettre le déroulement harmonieux de l'aventure.
-         <br>
-         <br>
-         <strong>Emmener l'équipement adéquat</strong> est crucial pour assurer confort et sécurité. Oublier des
-         éléments comme une lampe
-         frontale, des vêtements de pluie ou une trousse de premiers secours peut transformer une randonnée en une
-         expérience inconfortable, voire dangereuse. Une check-list bien élaborée aide à éviter ces désagréments en
-         garantissant que chaque élément essentiel est inclus dans l'équipement à emporter.
-         <br>
-         <br>
-         En adoptant une approche proactive avec <strong> une check-list bien établie</strong>, les randonneurs peuvent
-         se concentrer
-         pleinement sur la beauté de la nature environnante et l'aventure qui les attend. La tranquillité d'esprit
-         qu'apporte une préparation minutieuse se traduit par une expérience de randonnée plus agréable et plus sûre
-         pour tous les participants. En définitive, la check-list est bien plus qu'une simple liste d'objets à ne pas
-         oublier ; c'est un <strong> outil indispensable pour une randonnée</strong> réussie et mémorable.
-      </section>
+            <a href="quizz">
+               <button id="CTA" class="primary-btn">Obtenir votre checklist</button>
+            </a>
+         </section>
+         <section id="secondSection">
+            <h1>Facile a utiliser</h1>
+            <div class="reason">
+               <h2>Remplissez le quizz</h2>
+               <ul>
+                  <li>Rapide et intuitif</li>
+                  <li>Grande variété de possibilités</li>
+                  <li>Aucune conservation des reponses</li>
+               </ul>
+            </div>
+            <div class="reason">
+               <h2>Generez votre check list</h2>
+               <ul>
+                  <li>Generation instantanné</li>
+                  <li>Une checklist fonctionnelle</li>
+                  <li>Apparence epuré</li>
+               </ul>
+            </div>
+            <div class="reason">
+               <h2>Exportez la pour impression ou partager</h2>
+               <ul>
+                  <li>Possibilité d'exporter en PDF</li>
+                  <li>Partage de la checklist avec le lien</li>
+               </ul>
+            </div>
+
+         </section>
+         <section id="thirdSection">
+            <h1>L'importance d'avoir une bonne checklist :</h1>
+            Pour s'assurer que chaque randonnée se déroule sans accroc et que l'expérience en plein air demeure
+            agréable,
+            <strong>l'utilisation d'une check-list</strong> est essentielle. Cette <strong>liste d'empaquetage</strong>
+            minutieusement
+            conçue garantit que
+            rien d'important n'est oublié avant de partir pour le <strong>trek</strong>. En l'absence d'une telle
+            préparation, les
+            randonneurs risquent de rencontrer des problèmes frustrants, allant de l'équipement manquant à des soucis
+            logistiques, pouvant compromettre le déroulement harmonieux de l'aventure.
+            <br>
+            <br>
+            <strong>Emmener l'équipement adéquat</strong> est crucial pour assurer confort et sécurité. Oublier des
+            éléments comme une lampe
+            frontale, des vêtements de pluie ou une trousse de premiers secours peut transformer une randonnée en une
+            expérience inconfortable, voire dangereuse. Une check-list bien élaborée aide à éviter ces désagréments en
+            garantissant que chaque élément essentiel est inclus dans l'équipement à emporter.
+            <br>
+            <br>
+            En adoptant une approche proactive avec <strong> une check-list bien établie</strong>, les randonneurs
+            peuvent
+            se concentrer
+            pleinement sur la beauté de la nature environnante et l'aventure qui les attend. La tranquillité d'esprit
+            qu'apporte une préparation minutieuse se traduit par une expérience de randonnée plus agréable et plus sûre
+            pour tous les participants. En définitive, la check-list est bien plus qu'une simple liste d'objets à ne pas
+            oublier ; c'est un <strong> outil indispensable pour une randonnée</strong> réussie et mémorable.
+         </section>
    </body>
 
 </html>

@@ -7,11 +7,14 @@
    background-position: left;
    background-size: cover;
    background-repeat: no-repeat;
+   padding: 8rem 0rem;
    height: fit-content;
    min-height: 55vh;
 }
 
 #slogan {
+   font-size: 3rem;
+   font-weight: bolder;
    padding-bottom: 1rem;
    width: 100%;
    max-width: 800px;

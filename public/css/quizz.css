@@ -1,9 +1,17 @@
+form {
+   padding-top: 5rem;
+}
+
 #quizz {
    display: flex;
    justify-content: space-evenly;
    width: 90vw;
    max-width: 700px;
    padding-bottom: 1rem;
+}
+
+#quizz > div {
+   padding-bottom: 0.5rem;
 }
 
 #quizz > div > label {
